@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+    background-color: #fff;
+    width: 20rem;
+    border-radius: 5px;
+   position: absolute;
+}
+.flex p{
+    margin-left: 40px;
+}
+.flex img{
+    transform: scale(.5) !important;
+}
+.flex:nth-child(1){
+    right: 0;
+    z-index: -1;
+}
+.flex:nth-child(2) {
+    top: 25rem;
+    left: -9rem;
+    z-index: 2;
+}

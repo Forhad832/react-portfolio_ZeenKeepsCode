@@ -1,0 +1,64 @@
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+.mid_container{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.count{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.count::before{
+    background-image: linear-gradient(180deg,#87e6fb,#ffc05c);
+    border-radius: 100%;
+    bottom: -2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    content: "";
+    left: -2rem;
+    position: absolute;
+    right: -2rem;
+    top: -2rem;
+    z-index: -1;
+}
+.count h2{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #181818;
+}
+.count-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+@media screen and (max-width:780px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        padding-top: 200px;
+    }
+}

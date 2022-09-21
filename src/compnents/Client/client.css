@@ -1,0 +1,21 @@
+.client-swiper .swiper-slide {
+	max-width: 100%;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	padding: 20px;
+	border: 20px solid #C3F8FF;
+	border-radius: 14px;
+	margin: 0 auto;
+}
+.client-swiper .swiper-slide img{
+    width: 10rem;
+    height: 10rem !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.client-swiper .swiper-slide p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}

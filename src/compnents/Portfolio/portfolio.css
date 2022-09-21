@@ -1,0 +1,29 @@
+.swiper-slide img{
+    width: 25rem;
+    height: 15rem !important;
+    margin: 0 auto;
+}
+.swiper-slide {
+    margin-top: 100px;
+}
+.yellow{
+    color: #FFDE00;
+}
+.mt-50{
+    padding-top: 5rem;
+    text-align: center;
+}
+.mt-50 h2{
+    font-size: 4rem;
+    color: #181818;
+    line-height: 1.5;
+}
+@media screen and (max-width:780px) {
+    .swiper-slide {
+       width: 100% !important;
+       margin-left: 25px;
+    }
+    .mt-50 h2 {
+        font-size: 3rem;
+    }
+}
